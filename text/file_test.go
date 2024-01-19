@@ -48,7 +48,7 @@ const (
 		package version
 		
 		import (
-			"github.com/ZupIT/horusec/development-kit/pkg/utils/logger"
+			"github.com/Fotkurz/horusec/development-kit/pkg/utils/logger"
 			"github.com/spf13/cobra"
 		)
 		

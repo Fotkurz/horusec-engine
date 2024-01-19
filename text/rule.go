@@ -21,7 +21,7 @@ import (
 	"os"
 	"regexp"
 
-	engine "github.com/ZupIT/horusec-engine"
+	engine "github.com/Fotkurz/horusec-engine"
 )
 
 // MatchType represents the possibles match types of the engine
@@ -133,6 +133,7 @@ func (r *Rule) runNotMatch(file *File) ([]engine.Finding, error) {
 // findings with them. If any of the regex expressions don't match, it should return nil, all regex expressions should
 // match to be a valid vulnerability. In case of all have matched the first finding will be returned to be used to
 // generate the report
+//
 //nolint:funlen // necessary length, it's not a complex func, maybe can be improved in the future
 func (r *Rule) runAndMatch(file *File) ([]engine.Finding, error) {
 	var findings []engine.Finding

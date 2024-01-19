@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ZupIT/horusec-engine/pool"
+	"github.com/Fotkurz/horusec-engine/pool"
 )
 
 // AcceptAnyExtension can be passed as extensions argument in NewEngine to accept any extension

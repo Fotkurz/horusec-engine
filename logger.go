@@ -14,7 +14,7 @@
 
 package engine
 
-import "github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+import "github.com/Fotkurz/horusec-devkit/pkg/utils/logger"
 
 // SetLogLevel used to set the engine log level
 func SetLogLevel(level string) {

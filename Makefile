@@ -3,7 +3,7 @@ GOFMT ?= gofmt
 GO_FILES ?= $$(find . -name '*.go' | grep -v vendor | grep -v /examples/)
 GOLANG_CI_LINT ?= golangci-lint
 GO_IMPORTS ?= goimports
-GO_IMPORTS_LOCAL ?= github.com/ZupIT/horusec-engine
+GO_IMPORTS_LOCAL ?= github.com/Fotkurz/horusec-engine
 HORUSEC ?= horusec
 GO_FUMPT ?= gofumpt
 GO_GCI ?= gci
@@ -15,7 +15,7 @@ lint:
 	$(GOLANG_CI_LINT) run -v --timeout=5m -c .golangci.yml ./...
 
 coverage:
-	curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec-devkit/main/scripts/coverage.sh | bash -s 66.3 .
+	curl -fsSL https://raw.githubusercontent.com/Fotkurz/horusec-devkit/main/scripts/coverage.sh | bash -s 66.3 .
 
 test:
 	$(GO) clean -testcache
@@ -34,7 +34,7 @@ install-format-dependencies:
 
 security:
     ifeq (, $(shell which $(HORUSEC)))
-		curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/master/deployments/scripts/install.sh | bash -s latest
+		curl -fsSL https://raw.githubusercontent.com/Fotkurz/horusec/master/deployments/scripts/install.sh | bash -s latest
 		$(HORUSEC) start -p="./" -e="true"
     else
 		$(HORUSEC) start -p="./" -e="true"

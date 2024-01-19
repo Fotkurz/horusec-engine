@@ -20,12 +20,12 @@ The **BUILD.md** is a file to check the environment and build specifications of 
 
 ## **Development**
 
-Horusec-Engine is the standalone SAST engine used by [Horusec-CLI](https://github.com/ZupIT/horusec).
+Horusec-Engine is the standalone SAST engine used by [Horusec-CLI](https://github.com/Fotkurz/horusec).
 
 You can use it as a package by running the following command in your Golang project:
 
 ```bash
-go get github.com/ZupIT/horusec-engine
+go get github.com/Fotkurz/horusec-engine
 ```
 
 ### **Style Guide**
@@ -77,7 +77,7 @@ make coverage
 
 ### **Security**
 
-We use the latest version of [**Horusec-CLI**](https://github.com/ZupIT/horusec) to maintain the security of our source code. Through the command below, you can perform this verification in the project:
+We use the latest version of [**Horusec-CLI**](https://github.com/Fotkurz/horusec) to maintain the security of our source code. Through the command below, you can perform this verification in the project:
 
 ```bash
 make security

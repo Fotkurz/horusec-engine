@@ -1,20 +1,20 @@
 <p align="center" margin="20 0"><a href="https://horusec.io/">
-    <img src="https://github.com/ZupIT/horusec-devkit/blob/main/assets/horusec_logo.png?raw=true" 
+    <img src="https://github.com/Fotkurz/horusec-devkit/blob/main/assets/horusec_logo.png?raw=true" 
             alt="logo_header" width="65%" style="max-width:100%;"/></a></p>
 
 <p align="center">
-    <a href="https://github.com/ZupIT/horusec-engine/pulse" alt="activity">
-        <img src="https://img.shields.io/github/commit-activity/m/ZupIT/horusec-engine?label=activity"/></a>
-    <a href="https://github.com/ZupIT/horusec-engine/graphs/contributors" alt="contributors">
-        <img src="https://img.shields.io/github/contributors/ZupIT/horusec-engine?label=contributors"/></a>
-    <a href="https://github.com/ZupIT/horusec-engine/actions/workflows/lint.yml" alt="lint">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec-engine/Lint?label=lint"/></a>
-    <a href="https://github.com/ZupIT/horusec-engine/actions/workflows/test.yml" alt="test">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec-engine/Test?label=test"/></a>
-    <a href="https://github.com/ZupIT/horusec-engine/actions/workflows/security.yml" alt="security">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec-engine/Security?label=security"/></a>
-    <a href="https://github.com/ZupIT/horusec-engine/actions/workflows/coverage.yml" alt="coverage">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec-engine/Coverage?label=coverage"/></a>
+    <a href="https://github.com/Fotkurz/horusec-engine/pulse" alt="activity">
+        <img src="https://img.shields.io/github/commit-activity/m/Fotkurz/horusec-engine?label=activity"/></a>
+    <a href="https://github.com/Fotkurz/horusec-engine/graphs/contributors" alt="contributors">
+        <img src="https://img.shields.io/github/contributors/Fotkurz/horusec-engine?label=contributors"/></a>
+    <a href="https://github.com/Fotkurz/horusec-engine/actions/workflows/lint.yml" alt="lint">
+        <img src="https://img.shields.io/github/workflow/status/Fotkurz/horusec-engine/Lint?label=lint"/></a>
+    <a href="https://github.com/Fotkurz/horusec-engine/actions/workflows/test.yml" alt="test">
+        <img src="https://img.shields.io/github/workflow/status/Fotkurz/horusec-engine/Test?label=test"/></a>
+    <a href="https://github.com/Fotkurz/horusec-engine/actions/workflows/security.yml" alt="security">
+        <img src="https://img.shields.io/github/workflow/status/Fotkurz/horusec-engine/Security?label=security"/></a>
+    <a href="https://github.com/Fotkurz/horusec-engine/actions/workflows/coverage.yml" alt="coverage">
+        <img src="https://img.shields.io/github/workflow/status/Fotkurz/horusec-engine/Coverage?label=coverage"/></a>
     <a href="https://opensource.org/licenses/Apache-2.0" alt="license">
         <img src="https://img.shields.io/badge/license-Apache%202-blue"/></a>
 
@@ -33,10 +33,10 @@
 
 ## **About**
 
-This repository contains the standalone SAST engine used by [Horusec](https://github.com/ZupIT/horusec). 
+This repository contains the standalone SAST engine used by [Horusec](https://github.com/Fotkurz/horusec). 
 By now we only have a pattern matching rule implementation, but a semantic analysis is already is being planned.
 
-This is an internal repository of the [Horusec CLI](https://github.com/ZupIT/horusec), so we don't guarantee
+This is an internal repository of the [Horusec CLI](https://github.com/Fotkurz/horusec), so we don't guarantee
 compatibility between versions.
 
 ### **What is a SAST tool?**
@@ -106,12 +106,12 @@ For more information about Horusec, please check out the [**documentation**](htt
 
 ## **Issues**
 
-To open or track an issue for this project, in order to better coordinate your discussions, we recommend that you use the [**Issues tab**](https://github.com/ZupIT/horusec/issues) in the main [**Horusec**](https://github.com/ZupIT/horusec) repository.
+To open or track an issue for this project, in order to better coordinate your discussions, we recommend that you use the [**Issues tab**](https://github.com/Fotkurz/horusec/issues) in the main [**Horusec**](https://github.com/Fotkurz/horusec) repository.
 
 ## **Contributing**
 
 If you want to contribute to this repository, access our 
-[**Contributing Guide**](https://github.com/ZupIT/horusec-engine/blob/main/CONTRIBUTING.md).
+[**Contributing Guide**](https://github.com/Fotkurz/horusec-engine/blob/main/CONTRIBUTING.md).
 
 ### **Developer Certificate of Origin - DCO**
 
@@ -149,7 +149,7 @@ For this method, your name and e-mail must be the same registered on your GitHub
 
 ## **License**
 
-[**Apache License 2.0**](https://github.com/ZupIT/horusec-engine/blob/main/LICENSE).
+[**Apache License 2.0**](https://github.com/Fotkurz/horusec-engine/blob/main/LICENSE).
 
 ## **Community**
 
